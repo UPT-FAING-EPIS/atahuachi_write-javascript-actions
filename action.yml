@@ -6,7 +6,5 @@ outputs:
     description: "The fetched joke text"
 
 runs:
-  using: node24
-  main: dist/index.jsgit add action.yml
-git commit -m "Add action metadata file"
-git push
+  using: node20
+  main: dist/index.js
